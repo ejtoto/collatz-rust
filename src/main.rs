@@ -26,7 +26,8 @@ fn main() {
 
     for i in 1..10000001  {
 
-        print!("Run, with Startnumber: {}",i);
+        // print!("Run, with Startnumber: {}",i);
+        print!("{}",i);
         
             // The return value of the function is an option
             let result = collatz(i);
@@ -34,7 +35,8 @@ fn main() {
             // Pattern match to retrieve the value
             match result {
             // ...
-                Some(x) => print!(" and Steps down to 1: {x}\n"),
+                // Some(x) => print!(" and Steps down to 1: {x}\n"),
+                Some(x) => print!(",{x}\n"),
             // ...
                 None => println!("Wrong Value!"),
         }

@@ -24,7 +24,7 @@ fn main() {
 
     let start = Instant::now();
 
-    for i in 1..10000001  {
+    for i in 1..1000001  {
 
         // print!("Run, with Startnumber: {}",i);
         print!("{}",i);
